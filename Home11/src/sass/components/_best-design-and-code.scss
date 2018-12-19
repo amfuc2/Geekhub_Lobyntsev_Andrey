@@ -1,0 +1,31 @@
+.best-design-background {
+  background: url("../../src/img/Layer_8.png") #111111 50% 50% no-repeat;
+  height: 520px;
+}
+
+.white-subtitle {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 36px;
+  font-family: "Proxima Nova Lt", Arial, Serif, sans-serif;
+  font-weight: 300;
+
+  b {
+    font-family: "Proxima Nova Rg", Arial, Serif, sans-serif;
+    font-weight: 700;
+  }
+}
+
+.design-text-layout {
+  height: 520px;
+}
+
+.white-subtext {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.limiter-text {@media (max-width: 373px) {font-size: 15px;} }
+.limiter-title {@media (max-width: 373px) {font-size: 38px;} }
