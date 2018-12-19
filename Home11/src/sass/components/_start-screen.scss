@@ -1,0 +1,39 @@
+.start-screen {
+  background: url("../../src/img/Layer_10.png") 50% 50% no-repeat ;
+  height: 100vh;
+}
+
+.main-title {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.main-text {
+  color: #949494;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main-screen-text{
+  height: 400px;
+  text-align: center;
+}
+
+.scroll-down {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.remaining-space {
+  height: calc(100vh - 460px);
+  min-height: 100px;
+  max-height: 750px;
+  text-align: center;
+  white-space: nowrap;
+}
+
