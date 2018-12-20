@@ -1,0 +1,50 @@
+.main-title-about-us {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.about-team {
+  color: #949494;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.about-us-background {
+  background: url("../../src/img/Layer_15.png") #111111 50% 50% no-repeat;
+  height: 600px;
+}
+
+.about-team-div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card-about-us {
+  span {
+    color: #ffffff;
+    font-family: Roboto, Arial, Serif, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  p {
+    color: #949494;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  text-align: center;
+}
+
+.image-card {
+  position: relative;
+  left: calc(50% - 135px / 2);
+}
+
+@media (max-width: 767.99px) {
+  
+}

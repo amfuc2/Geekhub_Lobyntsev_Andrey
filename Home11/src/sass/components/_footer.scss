@@ -1,0 +1,21 @@
+.map {
+  width: calc(100vw - 30px);
+}
+
+footer {
+  text-align: center;
+  span, p{
+    color: #a7acbc;
+    font-size: 18px;
+    line-height: 36px;
+    font-family: "Proxima Nova Lt", Arial, Serif, sans-serif;
+    font-weight: 300;
+  }
+  p {
+    b {
+      color: #000;
+      font-family: "Proxima Nova Rg", Arial, Serif, sans-serif;
+      font-weight: 700;
+    }
+  }
+}
