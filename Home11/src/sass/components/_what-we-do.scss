@@ -1,0 +1,114 @@
+.web-design {
+  &:before {
+    background: url("../../src/img/Vector_Smart_Object.png") 50% 50% no-repeat;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 1px;
+    left: -110px;
+    width: 105px;
+    height: 95px;
+  }
+
+  span {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  p {
+    color: #949494;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+}
+
+.web-application {
+  &:before {
+    background: url("../../src/img/Vector_Smart_Object (2).png") 50% 50% no-repeat;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 1px;
+    left: -130px;
+    width: 136px;
+    height: 81px;
+  }
+
+  span {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  p {
+    color: #949494;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+}
+
+.digital-painting {
+  &:before {
+    background: url("../../src/img/Vector_Smart_Object (1).png") 50% 50% no-repeat;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 1px;
+    left: -110px;
+    width: 107px;
+    height: 102px;
+  }
+
+  span {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  p {
+    color: #949494;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+}
+
+.desktop-application {
+  &:before {
+    background: url("../../src/img/Vector_Smart_Object (3).png") 50% 50% no-repeat;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 1px;
+    left: -120px;
+    width: 126px;
+    height: 98px;
+  }
+
+  span {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  p {
+    color: #949494;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+}
+
+.main-title-what-we-do {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 36px;
+}
