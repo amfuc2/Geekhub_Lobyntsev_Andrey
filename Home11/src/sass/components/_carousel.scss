@@ -1,0 +1,8 @@
+.w-33 {
+  width: 90%;
+  margin-left: 5%;
+  @media (min-width: 992px) {
+    width: calc(100% / 3);
+    margin-left: 0;
+  }
+}

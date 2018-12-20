@@ -1,5 +1,5 @@
 .web-design {
-  &:before {
+  @media (min-width: 768px) { &:before {
     background: url("../../src/img/Vector_Smart_Object.png") 50% 50% no-repeat;
     content: '';
     position: absolute;
@@ -8,7 +8,8 @@
     left: -110px;
     width: 105px;
     height: 95px;
-  }
+  } }
+
 
   span {
     color: #000000;
@@ -26,7 +27,7 @@
 }
 
 .web-application {
-  &:before {
+  @media (min-width: 768px) { &:before {
     background: url("../../src/img/Vector_Smart_Object (2).png") 50% 50% no-repeat;
     content: '';
     position: absolute;
@@ -35,7 +36,8 @@
     left: -130px;
     width: 136px;
     height: 81px;
-  }
+  } }
+
 
   span {
     color: #000000;
@@ -53,7 +55,7 @@
 }
 
 .digital-painting {
-  &:before {
+  @media (min-width: 768px) { &:before {
     background: url("../../src/img/Vector_Smart_Object (1).png") 50% 50% no-repeat;
     content: '';
     position: absolute;
@@ -62,7 +64,8 @@
     left: -110px;
     width: 107px;
     height: 102px;
-  }
+  } }
+
 
   span {
     color: #000000;
@@ -80,7 +83,7 @@
 }
 
 .desktop-application {
-  &:before {
+  @media (min-width: 768px) { &:before {
     background: url("../../src/img/Vector_Smart_Object (3).png") 50% 50% no-repeat;
     content: '';
     position: absolute;
@@ -89,7 +92,8 @@
     left: -120px;
     width: 126px;
     height: 98px;
-  }
+  } }
+
 
   span {
     color: #000000;
