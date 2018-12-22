@@ -1,8 +1,37 @@
-.w-33 {
-  width: 90%;
-  margin-left: 5%;
-  @media (min-width: 992px) {
-    width: calc(100% / 3);
-    margin-left: 0;
+.Overlay {
+  @media (min-width: 1200px) {
+    padding-top: 100px;
+  }
+  @media (max-width: 992px) {
+    padding-top: 200px;
+  }
+  @media (max-width: 620px) {
+    padding-top: 100px;
+  }
+  @media (max-width: 380px) {
+    padding-top: 50px;
+  }
+  @media (max-width: 340px) {
+  padding-top: 0;
+  }
+  opacity: 0;
+
+  span {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  &:hover {
+    opacity: 1;
+    background: rgba(0, 0 , 0, 0.3);
   }
 }
