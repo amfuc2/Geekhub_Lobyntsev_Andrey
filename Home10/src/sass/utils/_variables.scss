@@ -4,3 +4,8 @@ $breakpoints: (
   'huge': (min-width: 1200px),
   'large-huge': (min-width: 1025px) and (max-width: 1200px),
 );
+
+$regular-font: "Droid Sans", Arial, Serif, sans-serif;
+$capital-font:  "Oswald", Arial, Serif, sans-serif;
+$designer-font: "Great Vibes", Arial, Serif, sans-serif;
+$default-font: "Open sans", Arial, Serif, sans-serif;
