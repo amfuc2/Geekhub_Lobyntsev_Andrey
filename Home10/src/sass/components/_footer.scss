@@ -1,0 +1,37 @@
+footer {
+  margin-top: 150px;
+  ul {
+    li {
+      a{
+        color: #333333;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 44px;
+        text-transform: uppercase;
+        font-family: "Droid Sans - Regular", Arial, Serif, sans-serif;
+        letter-spacing: 0.65px;
+
+        &:hover {
+          color: #333333;
+          text-decoration: line-through;
+        }
+      }
+    }
+  }
+}
+
+.copyright-cantus {
+  color: #333333;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 44px;
+  font-family: "Droid Sans - Regular", Arial, Serif, sans-serif;
+  letter-spacing: 0.65px;
+  b {
+    color: #df001f;
+    font-family: "Great Vibes", Arial, Serif, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+  }
+}

@@ -1,0 +1,25 @@
+.our-apps {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+    background: url("../../src/img/Layer_1.png") #333333 50% 50% no-repeat;
+    height: 354px;
+
+  span {
+    color: #ffffff;
+    font-family: Oswald, Arial, Serif, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+  }
+
+  p {
+    color: #ffffff;
+    font-family: "Droid Sans", Arial, Serif, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+  }
+}
