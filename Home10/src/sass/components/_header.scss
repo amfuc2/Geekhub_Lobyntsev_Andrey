@@ -2,27 +2,7 @@
   background-color: #df001f;
 }
 
-.purchase-button {
-  display: inline-block;
-  color: #df001f;
-  font-family: "Droid Sans", Arial, Serif, sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 30px;
-  text-transform: uppercase;
-  letter-spacing: 0.6px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  border-radius: 25px;
-  background-color: #ffffff;
-  padding: 5px 20px;
 
-  &:hover {
-    text-decoration: none;
-    color: #df001f;
-    opacity: 0.9;
-    transition: opacity 2s ease-in 0.3s;
-  }
-}
 
 .general-menu {
   color: #ffffff;

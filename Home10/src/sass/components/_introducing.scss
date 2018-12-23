@@ -1,0 +1,75 @@
+.subtitle {
+  color: #333333;
+  font-family: "Oswald - Regular", Arial, Serif, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 30px;
+
+  b {
+    color: #df001f;
+    font-family: "Great Vibes", Arial, Serif, sans-serif;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+    display: block;
+  }
+}
+
+.social-networks-on-card {
+  position: absolute;
+  top: 530px;
+  z-index: -1;
+  transition: all 1s;
+  background-color: #df001f;
+}
+  .img1{
+    background:url(../../src/img/Jone-Smith.png) #df001f no-repeat;
+    height: 590px;
+    max-width: 370px;
+    position:relative;
+  }
+  .img1:hover a{
+    top:550px;
+    z-index: 5;
+  }
+
+.img2{
+  background:url(../../src/img/Rendi-Outhar.png) #df001f no-repeat;
+  height: 590px;
+  max-width: 370px;
+  position:relative;
+}
+.img2:hover a{
+  top:550px;
+  z-index: 5;
+}
+
+.img3{
+  background:url(../../src/img/Renes-Odim.png) #df001f no-repeat;
+  height: 590px;
+  max-width: 370px;
+  position:relative;
+}
+.img3:hover a{
+  top:550px;
+  z-index: 5;
+}
+
+.name {
+  position: relative;
+  top: 490px;
+  color: #ffffff;
+  font-family:"Oswald - Regular", Arial, Serif, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.working {
+  font-family: "Droid Sans", Arial, Serif, sans-serif;
+  font-size: 16px;
+  position: relative;
+  top: 490px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 20px;
+}
