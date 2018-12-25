@@ -1,0 +1,38 @@
+.social-networks-on-card {
+  top: 530px;
+}
+
+.our-apps {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.Our-Founder-block {
+  padding-top: 120px;
+  padding-left: 20px;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  span {
+    margin-right: 30px;
+  }
+}
+
+.date {
+  top: 100px;
+  left: 100px;
+}
+
+.month {
+  top: 150px;
+  left: 20px;
+}
+
+footer {
+  margin-top: 150px;
+}
