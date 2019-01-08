@@ -80,7 +80,7 @@
   var Currents = 0;
   var FlagNewNum = false;
   var PendingOp = "";
-  var NewNumAfterFactorial;
+  var NewNumAfterFactorial = true;
 
 
   function NumPressed (Num)
@@ -113,27 +113,60 @@
     {
       FlagNewNum = true;
       if ( '+' == PendingOp )
-        Currents += parseFloat(Readout);
+        addition (Readout);
       else if ( '-' == PendingOp )
-        Currents -= parseFloat(Readout);
-      else if ( '/' == PendingOp ) {
-        Currents /= parseFloat(Readout);
-      }
+        subtraction (Readout);
+      else if ( '/' == PendingOp )
+        division (Readout);
       else if ( '*' == PendingOp )
-        Currents *= parseFloat(Readout);
-      else if ( 'radical' == PendingOp ) {
-        Currents = Math.pow(Currents, 1 / Readout);
-      }
-      else if ( '^' == PendingOp ) {
-        var i, a = Currents;
-        for (i = 1; i < Readout; i++) {
-          Currents = a * Currents;
-        }
-      }
+        multiplication (Readout);
+      else if ( 'radical' == PendingOp )
+        radical (Readout);
+      else if ( '^' == PendingOp )
+        power (Readout);
       else
         Currents = parseFloat(Readout);
       Fcalc.ReadOut.value = Currents;
       PendingOp = Op;
+      NewNumAfterFactorial = true;
+    }
+  }
+
+
+  function addition (Readout)
+  {
+    Currents += parseFloat(Readout);
+  }
+
+
+  function subtraction (Readout)
+  {
+    Currents -= parseFloat(Readout);
+  }
+
+
+  function division (Readout)
+  {
+    Currents /= parseFloat(Readout);
+  }
+
+
+  function multiplication (Readout)
+  {
+    Currents *= parseFloat(Readout);
+  }
+
+
+  function radical (Readout)
+  {
+    Currents = Math.pow(Currents, 1 / Readout);
+  }
+
+
+  function power (Readout) {
+    var i, a = Currents;
+    for (i = 1; i < Readout; i++) {
+      Currents = a * Currents;
     }
   }
 
@@ -141,10 +174,10 @@
   function Decimal ()
   {
     var curReadOut = Fcalc.ReadOut.value;
+    FlagNewNum != NewNumAfterFactorial;
     if (FlagNewNum)
     {
       curReadOut = "0.";
-      FlagNewNum = false;
     }
     else
     {
@@ -152,6 +185,7 @@
         curReadOut += ".";
     }
     Fcalc.ReadOut.value = curReadOut;
+    NewNumAfterFactorial = false;
   }
 
 
@@ -212,12 +246,9 @@
   function isInteger(f) {
     Fcalc.ReadOut.value = parseFloat(Fcalc.ReadOut.value);
     if (Math.round(f) == f)
-    {
       return (true);
-    }
-    else {
+    else
       return (false);
-    }
   }
 </script>
 </body>
