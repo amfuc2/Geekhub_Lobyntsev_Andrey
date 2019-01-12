@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home13</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script
+            src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="form">
+    <h1>Todo List</h1>
+    <input type="text" id="enter_task" placeholder="Enter Task">
+    <input type="submit" id="add" value="Add Task">
+    <p>
+    <ul id="todo_list">
+    </ul>
+    </p>
+</div>
+<script>
+  let Editbutton = true
+
+  function enter_task () {
+    var text = $('#enter_task').val()
+    $('#todo_list').append('<li>' + text + ' <input type="submit" class="edit" value="Edit">' + '<input type="submit" class="done delete" value="Delete">' + '</li>')
+    $(this).closest('#form').find("#enter_task").val("");
+  }
+
+  $('#todo_list').on('click', '.edit', function () {
+    if (Editbutton) {
+      $(this).parent().attr('contenteditable', 'true')
+      $(this).addClass('edit-active')
+      $('.edit-active').attr('value', 'Save')
+      Editbutton = false
+    }
+    else {
+      $('.edit').parent().attr('contenteditable', 'false')
+      $('.edit-active').attr('value', 'Edit')
+      $('.edit').removeClass('edit-active')
+      Editbutton = true
+    }
+  })
+
+  $('#todo_list').on('click', '.delete', function () {
+    $(this).parent().remove()
+  })
+
+  $(function () {
+    $('#add').on('click', enter_task)
+  })
+</script>
+</body>
+</html>
