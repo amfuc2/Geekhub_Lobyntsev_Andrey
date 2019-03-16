@@ -1,4 +1,4 @@
-name = My Theme
+name = mytheme 
 description = Special theme for the site./
 version = VERSION
 core = 7.x
@@ -9,23 +9,8 @@ stylesheets[all][] = main.css
  
 ; ---------REGIONS---------
 regions[header_menu] = Header menu
-regions[start_screen_text] = Start screen text
-regions[scroll_down] = Scroll down
-regions[best_design] = Best design
-regions[best_code] = Best code
-regions[title_four_blocks] = Title four blocks
-regions[web_design] = Web design
-regions[ask_for_price] = Ask for price
-regions[drone_zone_template] = DroneZone Template
-regions[neptune_template] = Neptune Template
-regions[fit_app_template] = FitApp Template
-regions[about_team] = About team
-regions[person1] = person1
-regions[person2] = person2
-regions[person3] = person3
-regions[person4] = person4
-regions[map] = map
-regions[footer] = footer
+regions[content] = Content
+regions[footer] = Footer
 
  
 project = "drupal" 
